@@ -2,6 +2,8 @@
 # Simple script to backup MySQL databases
 # Denzfarid
 
+# USE THIS FOR TUNNEL ->  ssh -f -L3310:localhost:3306 root@REMOTEHOST -N
+
 # Parent backup directory
 backup_parent_dir="/root/dump-sql"
 
